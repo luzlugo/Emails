@@ -1,0 +1,792 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+    <title>Burrow</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+     <!--[if gte mso 9]>
+      <xml>
+         <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+         </o:OfficeDocumentSettings>
+      </xml>
+      <![endif]-->
+
+	
+	<style type="text/css">
+        a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+        
+        table,
+        td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+        
+        .button a:hover{
+            transform: translateY(-0.25em);
+            transition: all .25s;
+            transition-property: all;
+            transition-duration: 0.25s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+        }
+		.button :hover{
+            transform: translateY(-0.25em);
+            transition: all .25s;
+            transition-property: all;
+            transition-duration: 0.25s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+        }
+
+        a.cta-underline:hover{
+            border: none !important;
+        }
+        
+        img {
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+        }
+        h1, h2, h3, p {
+            padding: 0 !important;
+            Margin: 0 !important;
+            font-weight: normal !important;
+        }
+        table {
+            border-collapse: collapse !important;
+        }
+        
+        body {
+            height: 100% !important;
+            Margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+        }
+        
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+        
+        @media screen {
+            @font-face {
+                font-family: 'GT America Regular';
+                font-style: normal;
+                src: url(https://d1qnmprc5tnkc9.cloudfront.net/fonts/33d4f5fa6c9ae8d08f56aae1c336e341.woff) format("woff");
+            }
+            @font-face {
+                font-family: 'GT America Light';
+                font-style: normal;
+                src: url(https://d1qnmprc5tnkc9.cloudfront.net/fonts/756690a76872f40cf2e06df5b22da782.woff) format("woff");
+            }
+            @font-face {
+                font-family: 'GT America Medium';
+                font-style: normal;
+                src: url(https://burrow-assets.s3.amazonaws.com/email.burrow/Templates/fonts/GT-America-Extended-Medium.woff) format("woff");
+            }
+            @font-face {
+                font-family: 'Neuzeit S LT W01 Book';
+                font-style: normal;
+                src: url(https://d1qnmprc5tnkc9.cloudfront.net/fonts/c506d6b24ddd6d6a415b040bedcc2c5d.woff) format("woff");
+            }
+            @font-face {
+                font-family: 'NeuzeitSLTW01-BookHeavy';
+                font-style: normal;
+                src: url(https://d1qnmprc5tnkc9.cloudfront.net/fonts/0f2c8bb68b4b28d20d61d5a23df03921.woff) format("woff");
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+           .nav {
+                font-size: 11px !important;
+                white-space: nowrap !important;
+            }
+
+            p {
+                font-size: 15px !important;
+                line-height: 21px !important;
+            }
+            p.small {
+                font-size: 13px !important;
+                line-height: 18px !important;
+            }
+			p.smaller {
+                font-size: 9px !important;
+                line-height: 13px !important;
+				
+            }
+			p.qoute {
+                font-size: 12px !important;
+                line-height: 15px !important;
+            }
+            h1 {
+                font-size: 22px !important;
+                line-height: 25px !important;
+            }
+            h2 {
+                font-size: 18px !important;
+                line-height: 25px !important;
+            }
+			h2.small {
+                font-size: 15px !important;
+                line-height: 25px !important;
+            }
+			h2.smaller {
+                font-size: 12px !important;
+                line-height: 16px !important;
+            }
+            h3 {
+                font-size: 15px !important;
+                line-height: 22px !important;
+            }
+			img.small {
+                width: 20px !important;
+            }
+			a.small {
+                font-size: 10px !important;
+            }
+            .center {
+                text-align: center !important;
+            }
+            .button-text {
+                font-size: 13px !important;
+                line-height: 45px !important;
+                width: 210px !important;
+                font-family: 'GT America Regular', Arial, 'sans-serif' !important;
+            }
+			.button-text-2 {
+                font-size: 13px !important;
+                line-height: 45px !important;
+                width: 245px !important;
+                font-family: 'GT America Regular', Arial, 'sans-serif' !important;
+            }
+			.button-text-3 {
+                font-size: 12px !important;
+                line-height: 25px !important;
+                width: 180px !important;
+                font-family: 'GT America Regular', Arial, 'sans-serif' !important;
+            }
+            .mobile {
+                display: none !important;
+            }
+            .icon {
+                width: 20px !important;
+            }
+			.icon-2 {
+                width: 23px !important;
+            }
+			.icon-3 {
+                width: 10px !important;
+            }
+            .footwrap {
+                padding: 5px 0px 15px 0px !important;
+            }
+            .footerlinks {
+                padding: 18px 0px 5px 0px !important;
+                display: block !important;
+                font-size: 13px !important;
+                border: none!important;
+            }
+            .column-container {
+                display:block !important;
+                width:100% !important;
+            }
+            .image-mobile {
+                display: block!important;
+                max-height: none !important;
+                max-width: none !important;
+                line-height: 1.5 !important;
+                width: 100% !important;
+                height: auto !important;
+            }
+            .hide {
+                display:none!important;
+                width:0px!important;
+                height: 0px!important;
+                overflow:hidden!important;
+                line-height: 0px!important;
+                font-size:0px!important;
+             } 
+			
+			.padHED {padding: 20px 19px 20px 19px !important;}
+            .pad0 {padding: 0 !important;}
+			.padR {padding: 0px 3px 0px 0px !important;}
+			.padL {padding: 0px 0px 0px 3px !important;}
+			.padRT {padding: 6px 3px 0px 0px !important;}
+			.padLT {padding: 1px 0px 0px 5px !important;}
+			.padl20 {padding: 0px 0px 0px 20px !important;}
+			.pad20 {padding: 0px 10px 10px 10px !important;}
+			.pad10 {padding: 0px 10px 10px 10px !important;}
+			.pad0606 {padding: 0px 25px 0px 6px !important;} 
+            .pad0707 {padding: 0px 6px 0px 6px !important;}  
+			.pad0707C {padding: 0px 6px 0px 10px !important;}
+            .pad0005 {padding: 0px 0px 5px 0px !important;}  
+            .pad0505 {padding: 5px 0px 0px 0px !important;}
+            .pad1510 {padding: 15px 0px 0px 0px !important;}
+            .pad2025 {padding: 20px 0px 25px 0px !important;}
+            .pad2020 {padding: 20px 0px 20px 0px !important;}
+            .pad0535 {padding: 5px 0px 35px 0px !important;}
+            .pad2000 {padding: 20px 0px 0px 0px !important;}
+            .pad2035 {padding: 20px 0px 35px 0px !important;}
+            .pad0515 {padding: 5px 0px 15px 0px !important;}
+			.pad0015 {padding: 0px 0px 15px 0px !important;}
+            .pad1035 {padding: 10px 0px 35px 0px !important;}
+            .pad1020 {padding: 10px 0px 20px 0px !important;}
+            .pad2500 {padding: 25px 0px 0px 0px !important;}
+            .pad2015 {padding: 20px 0px 15px 0px !important;}
+            .pad2515 {padding: 25px 0px 15px 0px !important;}
+			.pad2510 {padding: 25px 0px 10px 0px !important;}
+            .pad3010 {padding: 30px 0px 10px 0px !important;}
+			.pad3000 {padding: 30px 0px 0px 0px !important;}
+            .pad2520 {padding: 25px 0px 20px 0px !important;}
+            .pad1500 {padding: 15px 0px 0px 0px !important;} 
+            .pad1510 {padding: 15px 0px 10px 0px !important;}            
+            .pad1008 {padding: 10px 0px 8px 0px !important;}
+            .pad1000 {padding: 10px 0px 0px 0px !important;}
+            .pad1515 {padding: 15px 0px 15px 0px !important;}
+            .pad1010 {padding: 10px 0px 10px 0px !important;}
+            .pad0520 {padding: 5px 0px 20px 0px !important;}
+            .pad2010 {padding: 20px 0px 10px 0px !important;}
+            .pad2535 {padding: 25px 0px 35px 0px !important;}
+			.pad2555 {padding: 25px 0px 55px 0px !important;}
+            .pad1535 {padding: 15px 0px 35px 0px !important;}
+            .pad1520 {padding: 15px 0px 20px 0px !important;}
+            .pad3015 {padding: 30px 0px 15px 0px !important;}
+			.pad3515 {padding: 35px 0px 15px 0px !important;}
+			.pad3030 {padding: 30px 0px 30px 0px !important;}
+			.pad4515 {padding: 45px 0px 15px 0px !important;}
+			.pad4515 {padding: 45px 0px 15px 0px !important;}
+			.pad4500 {padding: 45px 0px 0px 0px !important;}
+            .pad0035 {padding: 0px 0px 35px 0px !important;}
+			.pad0025 {padding: 0px 0px 25px 0px !important;}
+            .width100 {width: 100% !important;}
+            .width98 {width: 98% !important;}
+            .width90 {width: 90% !important;}
+            .width85 {width: 85% !important;}
+            .width80 {width: 80% !important;}
+            .width70 {width: 70% !important;}
+			.width65 {width: 65% !important;}
+			.width60 {width: 60% !important;}
+            .width50 {width: 50% !important;}
+			.width40 {width: 40% !important;}
+            .width30 {width: 30% !important;}
+			.width20 {width: 20% !important;}
+			.width15 {width: 15% !important;}
+			.width10 {width: 10% !important;}
+			
+			.sale-column {
+                display: block !important;
+                width: 100% !important;
+				padding: 0px 0px 0px 0px !important;
+            }
+			.sale-column-2 {
+                display: block !important;
+                width: 100% !important;
+				padding: 0px 0px 13px 0px !important;
+            }
+            .sale-hed {
+                font-size: 17px !important;
+                text-align: center !important;
+                padding: 5px 0px 0px 0px !important;
+            }
+			.sale-subhed {
+				font-size: 13px !important;
+                text-align: center !important;
+                padding: 0px 0px 7px 0px !important;
+			}
+            .sale-body {
+                font-size: 14px !important;
+                line-height: 20px !important;
+                text-align: center !important;
+                padding: 0px 5px 0px 5px !important;
+            }
+            .sale-code {
+                padding: 6px 0px 6px 0px !important;
+            }
+			.sale-code-text {
+                font-size: 11px !important;
+                line-height: 28px !important;
+                text-align: center !important;
+				width: 210px !important;
+            }
+			
+        }
+		
+		
+    </style>
+</head>
+
+  <body align="center" style="background-color: #eee; Margin: 0; padding: 0;">
+<div style="display: none; max-height: 0px; overflow: hidden;">&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌ </div>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #eee;">
+<tr>
+    <td align="center" style="background-color: #FFFFFF;"><!--[if (gte mso 9)|(IE)]>
+				<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width: 600px">
+				<tr>
+				<td align="center" valign="top" width="600" style="width: 600px">
+				<![endif]--> 
+    
+    <!-- START NAV BAR --> 
+   <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+                    <tr>
+                        <td align="center" style="padding: 10px 0px 0px 0px;">
+                            <a href="https://burrow.com"><img alt="Burrow" width="600" style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633;" border="0" src="https://burrow-assets.s3.amazonaws.com/email.burrow/20191014+Fall+Sale+Leather/Burrow_NAV-Logo_transparent.png" /> </a>
+                        </td>
+                    </tr>
+                </table>
+   <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+                    <tr>
+                        <td align="center" style="padding: 5px 0px 20px 0px;">
+                            <table border="0" cellpadding="0" cellspacing="0" width="98%" style="max-width: 540px;" align="center">
+                                <tr>
+									<td class="nav pad0707" valign="bottom" align="center" style=" width: 20%; text-align: center; font-family: 'GT America Medium', Arial, 'sans-serif'; font-size: 13px; letter-spacing: -0.3px;"><a style="text-decoration: none; color: #383633;" href="https://burrow.com/living-room/seating">Seating</a>
+                                    </td>
+									<td>
+										<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+											
+											<tr>
+												<td class="nav pad0707" align="center" style=" width: 20%; text-align: center; font-family: 'GT America Medium', Arial, 'sans-serif'; font-size: 13px; letter-spacing: -0.3px"><a style="text-decoration: none; color: #383633;" href="https://burrow.com/bedroom">Bedroom</a>
+                                    			</td>
+											</tr>
+										</table>
+									</td>
+                                    <td class="nav pad0707C" valign="bottom" align="center" style="width: 35%; color: #383633; text-align: center; font-family: 'GT America Medium', Arial, 'sans-serif'; font-size: 13px; letter-spacing: -0.3px;"><a style="text-decoration: none; color: #383633;" href="https://burrow.com/shelves-and-storage">Shelves&nbsp;&amp;&nbsp;Storage</a>
+                                    </td>
+                                    <td class="nav pad0707" valign="bottom" align="center" style="width: 10%; text-align: center; font-family: 'GT America Medium', Arial, 'sans-serif'; font-size: 13px; letter-spacing: -0.3px;"><a style="text-decoration: none; color: #383633;" href="https://burrow.com/tables">Tables</a>
+                                    </td>
+                                    <td class="nav pad0707" valign="bottom" align="center" style="width: 20%; text-align: center; font-family: 'GT America Medium', Arial, 'sans-serif'; font-size: 13px; letter-spacing: -0.3px;"><a style="text-decoration: none; color: #383633;" href="https://burrow.com/dining">Dining</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+    <!-- END NAV BAR --> 
+    
+    <!-- BUILDLING MODULES START HERE --> 
+    <table bgcolor="#FCEE71" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+	<tr>
+		<td class="pad1000" style="padding: 10px 0px 0px 0px;">
+			<table class="width98" align="center" border="0" cellpadding="0" cellspacing="0" style="width: 600px; max-width: 100%;">
+				<tr>
+					<td class="pad0015" align="center" style="padding: 0px 0px 10px 0px;"><p class="width98" style="Margin: 0; padding: 0;  text-align: center; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 13px; line-height: 26px; letter-spacing: -0.01px; color:#383633; width: 90%;">Get an additional $100 off when you spend $1,000 or&nbsp;more. Use code: <span style="font-family: 'NeuzeitSLTW01-BookHeavy', Arial, 'sans-serif'; color: #383633"><!--[if (gte mso 9)|(IE)]><strong><![endif]-->FALL5M5W63JA<!--[if (gte mso 9)|(IE)]><strong><![endif]--></span></p>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+    <!--Start EDS Body-->
+    
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+        <tr>
+        <td align="center" style="width: 100%"><a href="https://burrow.com/fall-sale#accent-chairs"> <img alt="FALL SALE | UP TO 40% OFF | ACCENT CHAIRS" width="600" style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #C2C8D2;" border="0" src="https://burrow-assets.s3.amazonaws.com/email.burrow/_2024/0927_Fall-Sale_Accent-Seating-Highlight/ACCENT-CHAIRS-UPTO-40OFF.jpg" /> </a></td>
+      </tr>
+      </table>
+	<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #A56650">
+        <tbody>
+        <tr>
+            <td><table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 90%">
+                <tbody>
+                <tr>
+                    <td class="pad3015" align="center" style="padding: 40px 0px 10px 0px; "><h2 style="padding: 0; Margin: 0; text-align: center; font-family: 'GT America Medium', Arial, 'sans-serif'; font-weight: normal; font-size: 27px; line-height: 35px; letter-spacing: -0.3px"><a href="https://burrow.com/fall-sale#accent-chairs" style="text-decoration: none; color: #FFFFFF;">What's your favorite accent?</a></h2></td>
+                  </tr>
+                <tr>
+                    <td class="pad1000" align="center" style="padding: 20px 0px 35px 0px;"><p style="Margin: 0; padding: 0; text-align: center; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; letter-spacing: 0px; color:#FFFFFF;">And we don't mean British. Our accent chairs are designed to elevate the aesthetic of any room, while providing comfort and support. Plus, during our Fall Sale, save up to 40% on the Collection and use your exclusive code <strong>FALL5M5W63JA</strong> for an additional $100 off your order of $1,000 or more.</p></td>
+                  </tr>
+				  <tr>
+        <td class="pad2535" align="center" style="padding: 0px 0px 50px 0px;"><table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+            <tr>
+              <td class="button" align="center"><div> 
+                  <!--[if mso]>
+                                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://burrow.com/fall-sale#accent-chairs" style="height:58px;v-text-anchor:middle;width:270px;" arcsize="7%" stroke="f" fillcolor="#FCEE71">
+                                        <w:anchorlock/>
+                                        <center>
+                                        <![endif]--> 
+                  <a class="button-text" href="https://burrow.com/fall-sale#accent-chairs"
+                                        style="background-color: #FCEE71; border-radius: 4px; color: #383633; display: inline-block; font-family: 'GT America Medium', Arial, 'sans-serif'; font-size: 15px; letter-spacing: 1px; line-height: 58px; text-align: center; text-decoration: none; width: 210px; -webkit-text-size-adjust: none; text-transform: uppercase;">SHOP THE SALE</a> 
+                  <!--[if mso]>
+                                        </center>
+                                        </v:roundrect>
+                                        <![endif]--> 
+                </div></td>
+            </tr>
+          </table></td>
+      </tr>
+              </tbody>
+              </table></td>
+          </tr>
+      </tbody>
+      </table>
+	
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #ffffff;">
+        <tr>
+        <td class="pad2500" style="padding-top: 50px;"><table align="center" border="0" cellpadding="0" cellspacing="0" width="90%" style="max-width: 540px; background-color: #E1C0A8; border-radius: 20px 20px 0px 0px;">
+            <tr>
+              <td><table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 90%;">
+                  <tr>
+                    <td class="pad3015" align="center" style="padding: 40px 0px 10px 0px; "><h2 style="padding: 0; Margin: 0; text-align: center; font-family: 'GT America Medium', Arial, 'sans-serif'; font-weight: normal; font-size: 27px; line-height: 35px; letter-spacing: -0.3px"><a href="https://burrow.com/living-room/seating/accent-chairs/vesper-wood-and-leather-lounge-chair?sku=FLRST-AC-VP-UHW-L-SLWN-BM&ottoman-add-on=FLRST-AO-VP-UHW-L&seating-pillows=ALRSA-LB-VP" style="text-decoration: none; color: #383633;">Vesper</a></h2></td>
+                  </tr>
+                  <tr>
+                    <td class="pad1020" align="center" style="padding: 20px 0px 35px 0px;"><p style="Margin: 0; padding: 0;  text-align: center; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; letter-spacing: 0px; color:#383633;">Vesper is our first statement piece,<br> showcasing a visually striking lounge chair that maintains our signature focus on function. It combines bold aesthetics with maximum comfort, ensuring that you can have your cake and eat it too.</p></td>
+                  </tr>
+                </table></td>
+            </tr>
+          </table></td>
+      </tr>
+      </table>
+    <table class="width90" align="center" border="0" cellpadding="0" cellspacing="0" width="90%" style="max-width: 540px;">
+        <tr>
+        <td class="pad0025" align="center" style="width: 100%; padding-bottom: 50px;"><a href="https://burrow.com/living-room/seating/accent-chairs/vesper-wood-and-leather-lounge-chair?sku=FLRST-AC-VP-UHW-L-SLWN-BM&ottoman-add-on=FLRST-AO-VP-UHW-L&seating-pillows=ALRSA-LB-VP"> <img alt="Burrow" width="540" style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #C0C9B1; border-radius: 0px 0px 20px 20px;" border="0" src="https://burrow-assets.s3.amazonaws.com/email.burrow/_2024/0927_Fall-Sale_Accent-Seating-Highlight/VESPER.jpg" /> </a></td>
+      </tr>
+      </table>
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #ffffff;">
+        <tr>
+        <td class="pad1000" style="padding-top: 20px;"><table align="center" border="0" cellpadding="0" cellspacing="0" width="90%" style="max-width: 540px; background-color: #E1C0A8; border-radius: 20px 20px 0px 0px;">
+            <tr>
+              <td><table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 90%;">
+                  <tr>
+                    <td class="pad3015" align="center" style="padding: 40px 0px 10px 0px; "><h2 style="padding: 0; Margin: 0; text-align: center; font-family: 'GT America Medium', Arial, 'sans-serif'; font-weight: normal; font-size: 27px; line-height: 35px; letter-spacing: -0.3px"><a href="https://burrow.com/living-room/seating/accent-chairs/gimlet-chair?sku=LRAS-AC-GM-TN-WN&ottoman-add-on=LRAS-OT-GM" style="text-decoration: none; color: #383633;">Gimlet</a></h2></td>
+                  </tr>
+                  <tr>
+                    <td class="pad1020" align="center" style="padding: 20px 0px 35px 0px;"><p style="Margin: 0; padding: 0;  text-align: center; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; letter-spacing: 0px; color:#383633;">Gimlet is a lounge chair worth getting excited about. It’s a mid-century design with a tailored ergonomic profile that provides just the right amount of lumbar and back support.  Available in imported, Italian leather or a Performance Boucle and, go ahead...pair it with a matching ottoman.
+
+</p></td>
+                  </tr>
+                </table></td>
+            </tr>
+          </table></td>
+      </tr>
+      </table>
+    <table class="width90" align="center" border="0" cellpadding="0" cellspacing="0" width="90%" style="max-width: 540px;">
+        <tr>
+        <td class="pad0025" align="center" style="width: 100%; padding-bottom: 50px;"><a href="https://burrow.com/living-room/seating/accent-chairs/gimlet-chair?sku=LRAS-AC-GM-TN-WN&ottoman-add-on=LRAS-OT-GM"> <img alt="Burrow" width="540" style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #C0C9B1; border-radius: 0px 0px 20px 20px;" border="0" src="https://burrow-assets.s3.amazonaws.com/email.burrow/_2024/0927_Fall-Sale_Accent-Seating-Highlight/GIMLET.jpg" /> </a></td>
+      </tr>
+      </table>
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #ffffff;">
+        <tr>
+        <td class="pad1000" style="padding-top: 20px;"><table align="center" border="0" cellpadding="0" cellspacing="0" width="90%" style="max-width: 540px; background-color: #E1C0A8; border-radius: 20px 20px 0px 0px;">
+            <tr>
+              <td><table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 90%;">
+                  <tr>
+                    <td class="pad3015" align="center" style="padding: 40px 0px 10px 0px; "><h2 style="padding: 0; Margin: 0; text-align: center; font-family: 'GT America Medium', Arial, 'sans-serif'; font-weight: normal; font-size: 27px; line-height: 35px; letter-spacing: -0.3px"><a href="https://burrow.com/living-room/seating/accent-chairs/pica-chair?sku=FLRST-AC-PI-B-IVB-DW" style="text-decoration: none; color: #383633;">Pica</a></h2></td>
+                  </tr>
+                  <tr>
+                    <td class="pad1020" align="center" style="padding: 20px 0px 35px 0px;"><p style="Margin: 0; padding: 0;  text-align: center; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; letter-spacing: 0px; color:#383633;">Pica is an ideal companion chair that warmly embraces the Burrow ethos: supremely comfortable, veritably stylish, and of course, incredibly easy to set up. The rounded silhouette and plush materials invite lengthy sessions of curling up and zoning out, while the petite footprint allows it to find a home in any nook or corner.</p></td>
+                  </tr>
+                </table></td>
+            </tr>
+          </table></td>
+      </tr>
+      </table>
+    <table class="width90" align="center" border="0" cellpadding="0" cellspacing="0" width="90%" style="max-width: 540px;">
+        <tr>
+        <td class="pad0025" align="center" style="width: 100%; padding-bottom: 50px;"><a href="https://burrow.com/living-room/seating/accent-chairs/pica-chair?sku=FLRST-AC-PI-B-IVB-DW"> <img alt="Burrow" width="540" style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #C0C9B1; border-radius: 0px 0px 20px 20px;" border="0" src="https://burrow-assets.s3.amazonaws.com/email.burrow/_2024/0927_Fall-Sale_Accent-Seating-Highlight/PICA.jpg" /> </a></td>
+      </tr>
+      </table>
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #ffffff;">
+        <tr>
+        <td class="pad1000" style="padding-top: 20px;"><table align="center" border="0" cellpadding="0" cellspacing="0" width="90%" style="max-width: 540px; background-color: #E1C0A8; border-radius: 20px 20px 0px 0px;">
+            <tr>
+              <td><table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 90%;">
+                  <tr>
+                    <td class="pad3015" align="center" style="padding: 40px 0px 10px 0px; "><h2 style="padding: 0; Margin: 0; text-align: center; font-family: 'GT America Medium', Arial, 'sans-serif'; font-weight: normal; font-size: 27px; line-height: 35px; letter-spacing: -0.3px"><a href="https://burrow.com/living-room/seating/accent-chairs/lodge-chair?sku=FLRST-AC-LD-F-SGF-LW" style="text-decoration: none; color: #383633;">Lodge</a></h2></td>
+                  </tr>
+                  <tr>
+                    <td class="pad1020" align="center" style="padding: 20px 0px 35px 0px;"><p style="Margin: 0; padding: 0;  text-align: center; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; letter-spacing: 0px; color:#383633;">The quiet design features of Lodge are truly worthy of admiration. From the gentle pitch of the seat to the width of the armrest, every aspect of Lodge has been meticulously considered and refined, so it's not just beautiful, it's functional and comfortable too.</p></td>
+                  </tr>
+                </table></td>
+            </tr>
+          </table></td>
+      </tr>
+      </table>
+    <table class="width90" align="center" border="0" cellpadding="0" cellspacing="0" width="90%" style="max-width: 540px;">
+        <tr>
+        <td align="center" style="width: 100%; padding-bottom: 50px;"><a href="https://burrow.com/living-room/seating/accent-chairs/lodge-chair?sku=FLRST-AC-LD-F-SGF-LW"> <img alt="Burrow" width="540" style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #C0C9B1; border-radius: 0px 0px 20px 20px;" border="0" src="https://burrow-assets.s3.amazonaws.com/email.burrow/_2024/0927_Fall-Sale_Accent-Seating-Highlight/LODGE-v3.jpg" /> </a></td>
+      </tr>
+      </table>
+   
+
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #FFFFFF">
+        <tbody>
+        <tr>
+            <td><table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 90%">
+                <tbody>
+                <tr>
+                    <td class="pad0015" align="center" style="padding: 20px 0px 10px 0px; "><h2 style="padding: 0; Margin: 0; text-align: center; font-family: 'GT America Medium', Arial, 'sans-serif'; font-weight: normal; font-size: 27px; line-height: 35px; letter-spacing: -0.3px"><a href="https://burrow.com/tables-and-benches#coffeetables" style="text-decoration: none; color: #383633;">Kick your feet up</a></h2></td>
+                  </tr>
+                <tr>
+                    <td class="pad1000" align="center" style="padding: 20px 0px 35px 0px;"><p style="Margin: 0; padding: 0; text-align: center; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; letter-spacing: 0px; color:#383633;">Coffee tables are an accent chair's best friend. Shop our best selling coffee tables in a range of finishes and designs and find the one that fits your space perfectly.</p></td>
+                  </tr>
+              </tbody>
+              </table></td>
+          </tr>
+      </tbody>
+      </table>
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #FFFFFF">
+        
+        <tr>
+        <td class="pad1010" align="center" style="padding: 0px 0px 20px 0px; "><!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width: 600px"> <tr> <td align="center" valign="top" width="600" style="width: 600px"><![endif]-->
+            
+          <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+	<tbody>	
+        <tr>
+        <td class="pad2010" align="center" style="padding: 0px 0px 20px 0px; "><!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width: 600px"> <tr> <td align="center" valign="top" width="545" style="width: 545px"><![endif]-->
+            
+            <table class="width100" align="center" border="0" cellpadding="0" cellspacing="0" style="max-width: 545px; width: 91%">
+            <tbody>
+				<tr>
+			      <td width="50%" align="center" valign="top"><table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 270px;">
+                            <tbody>
+                              <tr>
+                                <td align="center"><a target="_blank" rel="noopener noreferrer" href="https://burrow.com/tables-and-benches/serif-square-coffee-table?sku=FLRTB-SQT-SR-OK"><img alt="Serif Square Coffee Table" width="270" style="display: inline-block; width: 270px; max-width: 100%;font-size: 11px; font-family: Arial, 'sans-serif'; color: #383633;" border="0" src="https://burrow-assets.s3.amazonaws.com/email.burrow/_2024/0927_Fall-Sale_Accent-Seating-Highlight/Serif_Square_Coffee_OAK.png"></a></td>
+                              </tr>
+                              <tr>
+                                <td align="center" style="width: 100%"><!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="270" style="width: 270px"> <tr> <td align="center" width="270" style="width:270px"><![endif]-->
+                                  
+                                  <table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width: 270px;">
+                                    <tbody>
+                                      <tr>
+                                        <td class="product" align="center" style="padding: 0px 0px 20px 0px; text-align: center; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 25px; color:#383633;">
+                                          <a target="_blank" rel="noopener noreferrer" class="cta-underline" href="https://burrow.com/tables-and-benches/serif-square-coffee-table?sku=FLRTB-SQT-SR-OK" style="text-decoration: none; color: #383633;"><p>
+										 <!--[if (gte mso 9)|(IE)]><span style="color: #383633; text-decoration: underline;"><![endif]--><span style="border-bottom: 1px solid #383633; ">Serif Square<br> Coffee Table</span><!--[if (gte mso 9)|(IE)]></span><![endif]--><br>
+										 <!--[if (gte mso 9)|(IE)]><span style="color: #74706D; text-decoration: line-through;"><![endif]--><span style="border-bottom: none;text-decoration: line-through;color:#74706D;font-size: 16px;">$499</span><!--[if (gte mso 9)|(IE)]></span><![endif]-->
+												<!--[if (gte mso 9)|(IE)]><span style="text-decoration: none;color:#8B3B35;"><![endif]-->
+												<span style="border-bottom: none;text-decoration: none;color:#8B3B35 ">Sale $399 </span>
+												<!--[if (gte mso 9)|(IE)]></span><![endif]-->
+												</p></a>
+                                          </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  
+                                  <!--[if (gte mso 9)|(IE)]></td> </tr> </table><![endif]--></td>
+                              </tr>
+                            </tbody>
+                          </table></td>
+							<td width="50%" align="center" valign="top"><table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 270px;">
+                                  <tbody>
+                                    <tr>
+                                      <td align="center"><a target="_blank" rel="noopener noreferrer" href="https://burrow.com/tables-and-benches/index-coffee-table?sku=FLRTB-CT-IX-OK"><img alt="Index Coffee Table" width="270" style="display: inline-block; width: 270px; max-width: 100%;font-size: 11px; font-family: Arial, 'sans-serif'; color: #383633;" border="0" src="https://burrow-assets.s3.amazonaws.com/email.burrow/_2024/0910_Harvest-Launch/Index_Coffee_Table_OAK.png"></a></td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" style="width: 100%"><!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="270" style="width: 270px"> <tr> <td align="center" width="270" style="width:270px"><![endif]-->
+                                        
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width: 270px;">
+                                          <tbody>
+                                            <tr>
+                                              <td class="product" align="center" style="padding: 0px 0px 20px 0px; text-align: center; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 25px; color:#383633;">
+                                                <a target="_blank" rel="noopener noreferrer" class="cta-underline" href="https://burrow.com/tables-and-benches/index-coffee-table?sku=FLRTB-CT-IX-OK" style="text-decoration: none; color: #383633;"><p>
+												<!--[if (gte mso 9)|(IE)]><span style="color: #383633; text-decoration: underline;"><![endif]--><span style="border-bottom: 1px solid #383633; ">Index Coffee Table</span><!--[if (gte mso 9)|(IE)]></span><![endif]-->
+												<br>
+										 <!--[if (gte mso 9)|(IE)]><span style="color: #74706D; text-decoration: line-through;"><![endif]--><span style="border-bottom: none;text-decoration: line-through;color:#74706D;font-size: 16px;">$449</span><!--[if (gte mso 9)|(IE)]></span><![endif]-->
+												<!--[if (gte mso 9)|(IE)]><span style="text-decoration: none;color:#8B3B35;"><![endif]-->
+												<span style="border-bottom: none;text-decoration: none;color:#8B3B35 ">Sale $179 </span>
+												<!--[if (gte mso 9)|(IE)]></span><![endif]-->
+												</p></a>
+                                                </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        
+                                        <!--[if (gte mso 9)|(IE)]></td> </tr> </table><![endif]--></td>
+                                    </tr>
+                                  </tbody>
+                                </table></td>
+                            </tr>
+                <tr>	   
+			     <td valign="top" width="50%" align="left"><table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 270px;">
+                                  <tbody>
+                                    <tr>
+                                      <td align="center"><a target="_blank" rel="noopener noreferrer" href="https://burrow.com/tables-and-benches/carta-coffee-table?sku=FLRTB-CT-BT-OK-HP-BM"><img alt="Carta Coffee Table" width="270" style="display: inline-block; width: 270px; max-width: 100%;font-size: 11px; font-family: Arial, 'sans-serif'; color: #383633;" border="0" src="https://burrow-assets.s3.amazonaws.com/email.burrow/_2024/0927_Fall-Sale_Accent-Seating-Highlight/Carta_Coffee_Table_Oak.png"></a></td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" style="width: 100%"><!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="270" style="width: 270px"> <tr> <td align="center" width="270" style="width:270px"><![endif]-->
+                                        
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width: 270px;">
+                                          <tbody>
+                                            <tr>
+                                              <td class="product" align="center" style="padding: 0px 0px 20px 0px; text-align: center; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 25px; color:#383633;">
+                                                <a target="_blank" rel="noopener noreferrer" class="cta-underline" href="https://burrow.com/tables-and-benches/carta-coffee-table?sku=FLRTB-CT-BT-OK-HP-BM" style="text-decoration: none; color: #383633;"><p><!--[if (gte mso 9)|(IE)]><span style="color: #383633; text-decoration: underline;"><![endif]--><span style="border-bottom: 1px solid #383633;">Carta Coffee Table</span><!--[if (gte mso 9)|(IE)]></span><![endif]-->
+												<br>
+												<!--[if (gte mso 9)|(IE)]><span style="color: #74706D; text-decoration: line-through;"><![endif]--><span style="border-bottom: none;text-decoration: line-through;color:#74706D;font-size: 16px;">$449</span><!--[if (gte mso 9)|(IE)]></span><![endif]-->
+												<!--[if (gte mso 9)|(IE)]><span style="text-decoration: none;color:#8B3B35;"><![endif]-->
+												<span style="border-bottom: none;text-decoration: none;color:#8B3B35 ">Sale $359 </span>
+												<!--[if (gte mso 9)|(IE)]></span><![endif]-->
+												</p></a>
+                                                </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        
+                                        <!--[if (gte mso 9)|(IE)]></td> </tr> </table><![endif]--></td>
+                                    </tr>
+                                  </tbody>
+                                </table></td>
+				 <td valign="top" width="50%" align="left"><table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 270px;">
+                                  <tbody>
+                                    <tr>
+                                      <td align="center"><a target="_blank" rel="noopener noreferrer" href="https://burrow.com/tables-and-benches/kettle-coffee-table?sku=FLRTB-CT-KT-WTMR-BM"><img alt="Kettle Coffee Table" width="270" style="display: inline-block; width: 270px; max-width: 100%;font-size: 11px; font-family: Arial, 'sans-serif'; color: #383633;" border="0" src="https://burrow-assets.s3.amazonaws.com/email.burrow/_2024/0927_Fall-Sale_Accent-Seating-Highlight/Kettle_Coffee_Table.png"></a></td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" style="width: 100%"><!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="270" style="width: 270px"> <tr> <td align="center" width="270" style="width:270px"><![endif]-->
+                                        
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width: 270px;">
+                                          <tbody>
+                                            <tr>
+                                              <td class="product" align="center" style="padding: 0px 2px 20px 2px; text-align: center; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 25px; color:#383633;">
+                                                <a target="_blank" rel="noopener noreferrer" class="cta-underline" href="https://burrow.com/tables-and-benches/kettle-coffee-table?sku=FLRTB-CT-KT-WTMR-BM" style="text-decoration: none; color: #383633;"><p>
+												<!--[if (gte mso 9)|(IE)]><span style="color: #383633; text-decoration: underline;"><![endif]--><span style="border-bottom: 1px solid #383633; ">Kettle Coffee Table</span><!--[if (gte mso 9)|(IE)]></span><![endif]--><br>
+												<!--[if (gte mso 9)|(IE)]><span style="color: #74706D; text-decoration: line-through;"><![endif]--><span style="border-bottom: none;text-decoration: line-through;color:#74706D;font-size: 16px;">$859</span><!--[if (gte mso 9)|(IE)]></span><![endif]-->
+												<!--[if (gte mso 9)|(IE)]><span style="text-decoration: none;color:#8B3B35;"><![endif]-->
+												<span style="border-bottom: none;text-decoration: none;color:#8B3B35 ">Sale $739 </span>
+												<!--[if (gte mso 9)|(IE)]></span><![endif]-->
+												</p></a>
+                                                </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        
+                                        <!--[if (gte mso 9)|(IE)]></td> </tr> </table><![endif]--></td>
+                                    </tr>
+                                  </tbody>
+                                </table></td>
+                            </tr>
+             </tbody>
+             </table>
+                          
+           <!--[if (gte mso 9)|(IE)]></td> </tr> </table><![endif]--></td>
+           </tr>
+    </tbody>
+     </table>
+            
+            <!--[if (gte mso 9)|(IE)]></td> </tr> </table><![endif]--></td>
+      </tr>
+        <tr>
+        <td align="center" style="padding: 0px 0px 50px 0px;"><table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+            <tr>
+              <td class="button" align="center"><div> <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://burrow.com/tables-and-benches#coffeetables" style="height:58px;v-text-anchor:middle;width:220px;" arcsize="7%" stroke="f" fillcolor="#FCEE71"> <w:anchorlock/> <center><![endif]--> <a class="button-text" href="https://burrow.com/tables-and-benches#coffeetables" style="background-color: #FCEE71; border-radius: 4px; color: #383633; display: inline-block; font-family: 'GT America Medium', Arial, 'sans-serif'; font-size: 15px; letter-spacing: 1px; line-height: 58px; text-align: center; text-decoration: none; width: 220px; -webkit-text-size-adjust: none; text-transform: uppercase;">SAVE NOW</a> <!--[if mso]></center> </v:roundrect><![endif]--> </div></td>
+            </tr>
+          </table></td>
+      </tr>
+      </table>
+    
+    <!-- BUILDLING MODULES END HERE --> 
+    
+    <!-- START FOOTER --> 
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+                    <tr>
+                        <td bgcolor="#484543" align="center" style="width: 100%">
+                            <!--[if (gte mso 9)|(IE)]>
+                            <table align="center" border="0" cellspacing="0" cellpadding="0" width="400" style="background-color: #484543; width: 400px">
+                            <tr>
+                            <td bgcolor="#484543" align="center" valign="top" width="400" style="background-color: #484543; width: 400px">
+                            <![endif]-->
+                            <table class="divider" align="center" cellpadding="0" cellspacing="0" width="100%" style="max-width: 400px;">
+                                <tr>
+                                	<td align="center" style="padding: 20px 0 5px 0; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif';font-size:16px;-webkit-text-size-adjust:none; line-height: 16px;" class="footerlinks"><span style="font-family: 'NeuzeitSLTW01-BookHeavy', Arial, 'sans-serif'; color: #FCF8F4"><!--[if (gte mso 9)|(IE)]><strong><![endif]-->Need Help? Text:<!--[if (gte mso 9)|(IE)]></strong><![endif]--></span> <a style="text-decoration: none; color: #FCF8F4;" href="https://tinyurl.com/2p98hhvu">+1-917-456-9455</a>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td>
+                            </tr>
+                            </table>
+                            <![endif]-->
+                            <table bgcolor="#484543" border="0" cellpadding="0" cellspacing="0" style="max-width: 300px; background-color: #484543;" align="center">
+                                <tr>
+                                    <td align="center" style="vertical-align:middle; padding: 20px 50px 20px 0px">
+                                        <a href="https://www.facebook.com/burrow"><img class="icon" src="https://burrow-assets.s3.amazonaws.com/email.burrow/Templates/Footer+Icons/facebook.png" alt="Facebook" style="font-size: 8px; color: #FCF8F4"></a>
+                                    </td>
+                                    <td align="center" style="vertical-align:middle; padding: 20px 50px 20px 0px">
+                                        <a href="https://twitter.com/hiburrow"><img class="icon" src="https://burrow-assets.s3.amazonaws.com/email.burrow/Templates/Footer+Icons/twitter.png" alt="Twitter" style="font-size: 8px; color: #FCF8F4"></a>
+                                    </td>
+                                    <td align="center" style="vertical-align:middle; padding: 20px 50px 20px 0px">
+                                        <a href="https://www.pinterest.com/hiburrow/"><img class="icon" src="https://burrow-assets.s3.amazonaws.com/email.burrow/Templates/Footer+Icons/pinterest.png" alt="Pinterest" style="font-size: 8px; color: #FCF8F4"></a>
+                                    </td>
+                                    <td align="center" style="vertical-align:middle; padding: 20px 0px 20px 0px">
+                                        <a href="https://www.instagram.com/burrow/"><img class="icon" src="https://burrow-assets.s3.amazonaws.com/email.burrow/Templates/Footer+Icons/instagram.png" alt="Instagram" style="font-size: 8px; color: #FCF8F4"></a>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!--[if (gte mso 9)|(IE)]>
+                            <table align="center" border="0" cellspacing="0" cellpadding="0" width="400" style="background-color: #484543; width: 400px">
+                            <tr>
+                            <td bgcolor="#484543" align="center" valign="top" width="400" style="background-color: #484543; width: 400px">
+                            <![endif]-->
+                            <table class="divider" align="center" cellpadding="0" cellspacing="0" width="100%" style="max-width: 400px; border-top: 1px solid #706D6B; border-bottom: 1px solid #706D6B;">
+                                <tr>
+                                    <td class="footwrap" align="center" style="padding: 7px 0px 7px 0px;">
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 400px; text-align: center" align="center">
+                                            <tr>
+                                                <td align="center" style="padding: 15px 0 0 0; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif';font-size:16px;-webkit-text-size-adjust:none; line-height: 16px;" class="footerlinks"><a style="text-decoration: none; color: #FCF8F4;" href="https://burrow.com/terms">Terms</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="padding: 20px 0 0 0; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif';font-size:16px;-webkit-text-size-adjust:none; line-height: 16px;" class="footerlinks"><a style="text-decoration: none; color: #FCF8F4;" href="https://burrow.com/privacy">Privacy</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="padding: 20px 0 0 0; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif';font-size:16px;-webkit-text-size-adjust:none; line-height: 16px;" class="footerlinks"><a style="text-decoration: none; color: #FCF8F4;" href="{{hostedUnsubscribeUrl}}">Unsubscribe</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="padding: 20px 0 15px 0; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif';font-size:16px;-webkit-text-size-adjust:none; line-height: 16px;" class="footerlinks"><a style="text-decoration: none; color: #FCF8F4;" href="{{viewInBrowserUrl}}">View&nbsp;In&nbsp;Browser</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width: 400px;">
+                                <tr>
+                                    <td align="center" style="padding: 5px 30px 20px 30px;">
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;" align="center">
+                                            <tr>
+                                              <td class="foot2" align="center" style="vertical-align: top; width: 100%; color: #FCF8F4; text-align: center; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 12px; line-height: 17px; padding-top: 10px">15 W 27th Street, New York, NY
+                                                    <br />                                                     © 2024 Burrow
+                                           </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td>
+                            </tr>
+                            </table>
+                            <![endif]-->
+                        </td>
+                    </tr>
+                </table>  
+                <!--[if (gte mso 9)|(IE)]>
+				</td>
+				</tr>
+
+				</table>
+				<![endif]-->
+            </td>
+        </tr>
+    </table>
+</body>
+	
+	
+</html>
